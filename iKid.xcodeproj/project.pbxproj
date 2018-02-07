@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		08144250202A319F0083F417 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0814424F202A319F0083F417 /* AppDelegate.swift */; };
-		08144252202A319F0083F417 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08144251202A319F0083F417 /* FirstViewController.swift */; };
-		08144254202A319F0083F417 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08144253202A319F0083F417 /* SecondViewController.swift */; };
+		08144252202A319F0083F417 /* GoodJokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08144251202A319F0083F417 /* GoodJokesViewController.swift */; };
+		08144254202A319F0083F417 /* PunsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08144253202A319F0083F417 /* PunsViewController.swift */; };
 		08144257202A319F0083F417 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08144255202A319F0083F417 /* Main.storyboard */; };
 		08144259202A319F0083F417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08144258202A319F0083F417 /* Assets.xcassets */; };
 		0814425C202A319F0083F417 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0814425A202A319F0083F417 /* LaunchScreen.storyboard */; };
+		08144264202A99B00083F417 /* DadJokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08144263202A99B00083F417 /* DadJokesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0814424C202A319F0083F417 /* iKid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0814424F202A319F0083F417 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		08144251202A319F0083F417 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		08144253202A319F0083F417 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		08144251202A319F0083F417 /* GoodJokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodJokesViewController.swift; sourceTree = "<group>"; };
+		08144253202A319F0083F417 /* PunsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunsViewController.swift; sourceTree = "<group>"; };
 		08144256202A319F0083F417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08144258202A319F0083F417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0814425B202A319F0083F417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0814425D202A319F0083F417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08144263202A99B00083F417 /* DadJokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				0814424F202A319F0083F417 /* AppDelegate.swift */,
-				08144251202A319F0083F417 /* FirstViewController.swift */,
-				08144253202A319F0083F417 /* SecondViewController.swift */,
+				08144251202A319F0083F417 /* GoodJokesViewController.swift */,
+				08144253202A319F0083F417 /* PunsViewController.swift */,
 				08144255202A319F0083F417 /* Main.storyboard */,
+				08144263202A99B00083F417 /* DadJokesViewController.swift */,
 				08144258202A319F0083F417 /* Assets.xcassets */,
 				0814425A202A319F0083F417 /* LaunchScreen.storyboard */,
 				0814425D202A319F0083F417 /* Info.plist */,
@@ -139,9 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08144254202A319F0083F417 /* SecondViewController.swift in Sources */,
+				08144254202A319F0083F417 /* PunsViewController.swift in Sources */,
 				08144250202A319F0083F417 /* AppDelegate.swift in Sources */,
-				08144252202A319F0083F417 /* FirstViewController.swift in Sources */,
+				08144252202A319F0083F417 /* GoodJokesViewController.swift in Sources */,
+				08144264202A99B00083F417 /* DadJokesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
